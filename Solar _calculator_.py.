@@ -1,11 +1,54 @@
-# Jos, Plateau State - Solar Requirement Calculator
-def calculate_jos_solar_needs(hours_of_blackout, appliances_wattage):
-    peak_sun_hours = 5.5  # Average for Jos region
-    energy_required = (hours_of_blackout * appliances_wattage) * 1.2 
-    panel_wattage = 250
-    number_of_panels = energy_required / (panel_wattage * peak_sun_hours)
-    return energy_required, round(number_of_panels, 1)
 
-# Scenario: 10hr blackout, 400W load
-energy, panels = calculate_jos_solar_needs(10, 400)
-print(f"Daily Energy Gap: {energy} Wh | Panels Needed: {panels}")
+"""
+Nigeria Electricity Gap Analysis
+Household Solar Energy Estimator (Jos Case Study)
+
+This program estimates the number of solar panels needed to support
+a household during power outages in Nigeria.
+"""
+
+def
+estimate_daily_energy(appliance_power_watts, hours_of_use):
+    """
+    Calculates daily energy consumption in watt-hours.
+    """
+    return appliance_power_watts * hours_of_use
+
+
+def estimate_solar_panels(energy_required_wh, panel_wattage, sunlight_hours):
+    """
+    Estimates number of solar panels required.
+    """
+    energy_per_panel = panel_wattage * sunlight_hours
+    panels_needed = energy_required_wh / energy_per_panel
+    return round(panels_needed, 1)
+
+
+def main():
+    # Assumptions based on a typical household in Jos, Nigeria
+    appliance_power_watts = 400      # average household load
+    outage_hours = 10                # average blackout duration
+    sunlight_hours = 5.5             # average daily sunlight in Jos
+    panel_wattage = 250              # standard solar panel size
+
+    # Calculate energy requirement
+    daily_energy_needed = estimate_daily_energy(
+        appliance_power_watts,
+        outage_hours
+    )
+
+    # Estimate solar panels required
+    panels = estimate_solar_panels(
+        daily_energy_needed,
+        panel_wattage,
+        sunlight_hours
+    )
+
+    # Output result
+    print("Nigeria Electricity Gap Analysis (Jos)")
+    print(f"Daily energy needed: {daily_energy_needed} Wh")
+    print(f"Estimated solar panels required: {panels}")
+
+
+if _name_ == "_main_":
+    main()
