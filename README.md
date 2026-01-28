@@ -1,10 +1,34 @@
-# Addressing Energy Poverty: Solar Solution for Jos, Nigeria #
-The problem 
-In Jos, Plateau State, grid instability lead to frequent blackouts averaging 12+ hours with others maxing to a whole day or weeks. This project provides a technical framework for household to calculate their transition to renewable energy.
-## Aim Of Project
-I developed a Python-based calculator that:
-1. Analyzes houshold "Energy Gaps" during grid failures.
-2. Calculates solar hardware requirement based on local Jos solar irradiance levels.
+#Solar Energy Requirement Calculator for Households in Jos, Nigeria 
+##Overview 
+This project is a data-driven tool designed to estimate the solar energy requirements of a typical household in Jos, Nigeria, particularly during period of grid power outages.
 
-## Connection to IE University
-This project reflects my commitment to Social Innovation and Sustainability-core value of IE University. It demonstrate my ability to apply technology to solve real world infastructure challenges in my community. 
+## Problem statement 
+Frequent power outages in Nigeria force households to reply on alternative ebergy sources. However, many households lack the technical knowledge to properly size a solar ebergy system, leading to under- or over- investment.
+
+##Objective 
+The objective of this project is to:
+- Estimate daily household energy consumption
+- Calculate required solar panel capacity
+- Provide a simple decision-support tool for household
+
+##Methodoly
+- Household electrical appliances were listed with their power ratings
+- Daily usage hours were estimated
+- Total energy consumption was calculated in watt- hour
+- Solar panel requirements were estimated based on averag sunlight hours in Jos
+
+##Tools and Technologies 
+- Python
+- Basic data analysis
+- GitHub for version control
+
+## How to Run the Project 
+1. CLone the repository
+2. Navigate to the 'src' folder
+3. Run 'solar_calculator.py'
+
+   ## Location Focus
+   Jos, Plateau State, Nigeria
+
+   ## license
+   MIT License 
