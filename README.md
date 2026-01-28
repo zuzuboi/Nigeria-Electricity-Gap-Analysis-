@@ -1,34 +1,24 @@
-Solar Energy Requirement Calculator for Households in Jos, Nigeria 
-Overview 
-This project is a data-driven tool designed to estimate the solar energy requirements of a typical household in Jos, Nigeria, particularly during period of grid power outages.
+#Nigeria Electricity Gap Analysis
 
- Problem statement 
-Frequent power outages in Nigeria force households to reply on alternative energy sources. However, many households lack the technical knowledge to properly size a solar ebergy system, leading to under- or over- investment.
+##Overview
+This project is a data-driven tool designed to estimate the solar energy requirement of a typical household in Jos, Nigeria, particularly during frequent grid power outages.
 
-Objective 
-The objective of this project is to:
-- Estimate daily household energy consumption
-- Calculate required solar panel capacity
-- Provide a simple decision-support tool for household
+## Problem statement 
+Frequent power outages in Nigeria force household to rely on generators and alternative energy sources. Many households lack the technical knowledge needed to properly sixe a solar energy sysytem, often resulting in underpowered setups or unneccessary over-investment.
 
-Methodoly
-- Household electrical appliances were listed with their power ratings
+## Motivation
+Growing up in Nigeria, Power outage were part of daily life. This project was created to better understand how solar energy can realistically support households during grid failures.
+
+## Objectives 
+- Estimate daily household energy consumption based on common Nigerian household appliances
+- Calculate the required solar panel capacity
+- Provide a simple decision-support tool for household considering solar energy
+
+## Methodology 
+- Household electrical appliances were listed with power rating
 - Daily usage hours were estimated
-- Total energy consumption was calculated in watt- hour
-- Solar panel requirements were estimated based on averag sunlight hours in Jos
+- Total energy consumption was calculated in watt-hours
+- Solar panel requirements were calculated using average hours in Jos, Nigeria
 
-Tools and Technologies 
-- Python
-- Basic data analysis
-- GitHub for version control
-
- How to Run the Project 
-1. CLone the repository
-2. Navigate to the 'src' folder
-3. Run 'solar_calculator.py'
-
-    Location Focus
-   Jos, Plateau State, Nigeria
-
-    license
-   MIT License 
+## Why It Matters 
+Thos project demonstrate how data and simple model can be used to explore pratical solution to Nigeria's energy challenges.
