@@ -4,7 +4,7 @@
 This project is a data-driven tool designed to estimate the solar energy requirement of a typical household in Jos, Nigeria, particularly during frequent grid power outages.
 
 ## Problem statement 
-Frequent power outages in Nigeria force household to rely on generators and alternative energy sources. Many households lack the technical knowledge needed to properly sixe a solar energy sysytem, often resulting in underpowered setups or unneccessary over-investment.
+Frequent power outages in Nigeria force household to rely on generators and alternative energy sources. Many households lack the technical knowledge needed to properly install a solar energy system, often resulting in underpowered setups or unneccessary over-investment.
 
 ## Motivation
 Growing up in Nigeria, Power outage were part of daily life. This project was created to better understand how solar energy can realistically support households during grid failures.
